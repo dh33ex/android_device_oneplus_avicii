@@ -493,5 +493,8 @@ PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
+# Touch
+$(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/include)
+
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/avicii/avicii-vendor.mk)
