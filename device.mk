@@ -250,6 +250,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
+    init.qti.media.sh \
     init.target.rc \
     ueventd.oplus.rc \
     ueventd.qcom.rc
@@ -354,10 +355,6 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librmnetctl
-
-# Seccomp policy
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
 
 # Sensors
 PRODUCT_PACKAGES += \
