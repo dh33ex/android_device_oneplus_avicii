@@ -27,25 +27,14 @@ from extract_utils.utils import (
 )
 
 namespace_imports = [
-    'hardware/oplus/overlay/generic',
-    'hardware/oplus/overlay/qssi',
     'device/oneplus/avicii',
     'hardware/oplus',
-    'vendor/qcom/opensource/usb/etc',
-    'vendor/oneplus/avicii',
-    'hardware/qcom-caf/sm8250',
-    'vendor/qcom/opensource/commonsys/display',
-    'vendor/qcom/opensource/commonsys-intf/display',
-    'vendor/qcom/opensource/display',
-    'vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um',
-    'vendor/qcom/opensource/dataservices',
     'hardware/qcom-caf/wlan',
-    #'device/oneplus/avicii',
-    #'hardware/oplus',
-    #'hardware/qcom-caf/sm8250',
-    #'hardware/qcom-caf/wlan',
-    #'vendor/qcom/opensource/dataservices',
-    #'vendor/qcom/opensource/display',
+    'hardware/qcom-caf/sm8250',
+    'vendor/qcom/opensource/commonsys-intf/display',
+    'vendor/qcom/opensource/commonsys/display',
+    'vendor/qcom/opensource/dataservices',
+    'vendor/qcom/opensource/display',
 ]
 
 
